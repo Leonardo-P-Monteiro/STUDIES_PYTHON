@@ -1,0 +1,77 @@
+## Um Método Passo a Passo para Resolver Problemas de Programação
+
+**Entender o problema:**
+
+1. **Leia atentamente:** Certifique-se de compreender cada detalhe do problema.
+2. **Identifique as entradas:** Quais são os dados que a sua solução precisa receber?
+3. **Determine as saídas:** Qual é o resultado esperado da sua solução?
+4. **Estabeleça restrições:** Existem limites para os valores de entrada ou para o tempo de execução?
+
+**Planejar a solução:**
+
+1. **Escolha uma abordagem:** Qual algoritmo ou estrutura de dados você utilizará?
+2. **Quebre em partes menores:** Divida o problema em subproblemas mais simples.
+3. **Use diagramas ou fluxogramas:** Visualize a lógica do seu programa.
+
+**Implementar a solução:**
+
+1. **Escreva o código:** Traduza o seu planejamento para a linguagem de programação escolhida.
+2. **Teste cada parte:** Verifique se cada parte do código funciona como esperado.
+3. **Use nomes de variáveis e funções claros:** Facilite a leitura e a manutenção do código.
+
+**Depurar e otimizar:**
+
+1. **Identifique erros:** Use um depurador para encontrar e corrigir erros no código.
+2. **Melhore a eficiência:** Verifique se o código pode ser otimizado para executar mais
+rápido ou usar menos memória.
+
+**Exemplo prático:**
+
+**Problema:** Escreva um programa que calcula a média de três números.
+
+**Entender o problema:**
+* **Entradas:** Três números.
+* **Saída:** A média dos três números.
+* **Restrições:** Nenhuma.
+
+**Planejar a solução:**
+* **Abordagem:** Utilizaremos a fórmula da média aritmética.
+* **Partes menores:**
+  * Ler os três números.
+  * Calcular a soma dos números.
+  * Dividir a soma por 3.
+  * Imprimir o resultado.
+
+**Implementar a solução:** (Em Python)
+```python
+numero1 = float(input("Digite o primeiro número: "))
+numero2 = float(input("Digite o segundo número: "))
+numero3 = float(input("Digite o terceiro número: "))
+
+soma = numero1 + numero2 + numero3
+media = soma / 3
+
+print("A média é:", media)
+```
+
+**Depurar e otimizar:**
+* **Testar:** Tente com diferentes valores de entrada para verificar se o resultado está correto.
+* **Otimizar:** Para este exemplo simples, não há muito o que otimizar.
+
+**Dicas adicionais:**
+
+* **Pratique regularmente:** A prática leva à perfeição.
+* **Busque ajuda:** Não tenha medo de pedir ajuda a outros programadores.
+* **Utilize ferramentas:** Existem diversas ferramentas que podem auxiliar na programação, 
+como editores de código, depuradores e sistemas de versionamento.
+* **Participe da comunidade:** A comunidade de programação é muito ativa e pode oferecer 
+suporte e insights valiosos.
+
+**Lembre-se:** A resolução de problemas de programação é um processo iterativo. Você pode precisar
+ voltar a etapas anteriores e fazer ajustes à medida que avança.
+
+**Gostaria de trabalhar em um problema específico?** Se você tiver um problema em mente, posso te
+ ajudar a resolvê-lo passo a passo.
+
+**Qual linguagem de programação você está usando?** Posso fornecer exemplos mais específicos de acordo
+ com a sua linguagem.

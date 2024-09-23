@@ -1,0 +1,10 @@
+{
+    "chave1": "valor1",
+    "chave2": 42,
+    "chave3": true,
+    "chave4": null,
+    "chave5": [1, 2, 3],
+    "chave6": {
+        "chave_aninhada": "valor_aninhado"
+    }
+}

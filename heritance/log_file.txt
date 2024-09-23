@@ -1,0 +1,5 @@
+Success: Xiaomi is on. (SmarthPhone)
+Success: Xiaomi is off. (SmarthPhone)
+Success: Xiaomi is on. (SmarthPhone)
+Success: Xiaomi is off. (SmarthPhone)
+Erro: Xiaomi showed a erro. (SmarthPhone)
