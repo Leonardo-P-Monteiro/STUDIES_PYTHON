@@ -1,4 +1,4 @@
-from .file_test import soma, subtracao
+from .file_test import soma, _subtracao
 
 
 
