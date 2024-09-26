@@ -32,3 +32,14 @@ name_week_day = calendar.day_name[day_week]
 print(f'--> .weekday(): {day_week}')
 print(f'--> .day_name(): {name_week_day}')
 
+# Method monthcalender()
+
+list_calendar_month = calendar.monthcalendar(2024, 9)
+list_calendar_month_enumerate = []
+
+for week in list_calendar_month:
+    for day in enumerate(week, 0):
+        list_calendar_month_enumerate.append(day)
+
+# print(list_calendar_month_enumerate)
+
