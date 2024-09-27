@@ -1,0 +1,37 @@
+- Módulo OS:
+    - os.path()
+        - os.path.join()
+            - exemplo
+        - os.path.exists()
+            - exemplo
+        - os.path.split()
+            - exemplo
+        - os.path.splitext()
+            - exemplo
+        - os.path.dirname()
+            - exemplo
+    - os.listdir()
+        - exemplo 
+    - os.walk()
+        - explique os seus parâmetros e o retorno produzido por esse método.
+        - exemplo
+    - os.system()
+    - os.stat()
+        - exemplo
+    - mais funções úteis.
+
+- Módulo shutil:
+    - shutil.makedirs()
+        - explique seus parâmetros.
+        - exemplo
+    - shutil.copy()
+        - exemplo
+    - os.path.expanduser()
+        - explique seus argumentos, o que ela retorna e como interpretar seu retorno.
+        - exemplo
+    -shutil.copytree()
+        - exemplo
+    - shutil.rmcopytree()
+        - exemplo
+    - shutil.move()
+        - exemplo
