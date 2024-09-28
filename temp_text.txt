@@ -1,37 +1,82 @@
-- Módulo OS:
-    - os.path()
-        - os.path.join()
-            - exemplo
-        - os.path.exists()
-            - exemplo
-        - os.path.split()
-            - exemplo
-        - os.path.splitext()
-            - exemplo
-        - os.path.dirname()
-            - exemplo
-    - os.listdir()
-        - exemplo 
-    - os.walk()
-        - explique os seus parâmetros e o retorno produzido por esse método.
+Módulo json.
+    - json.loads
+        - parâmetros
         - exemplo
-    - os.system()
-    - os.stat()
+    - json.dumps
+        - parâmetros
         - exemplo
-    - mais funções úteis.
+    - json.dump
+        - parâmetros
+        - exemplo
+    - json.load
+        - parâmetros
+        - exemplo
+    - Diferenças de utilização entre eles.
 
-- Módulo shutil:
-    - shutil.makedirs()
-        - explique seus parâmetros.
+
+
+
+Módulo typing.
+    - TypedDict;
+        - Exemplo de utilização prática.
+        - Exemplo de utilização tipando um arquivo .json para dicionário e 
+        tipando ele na sequência. 
+
+
+Módulo pathlib
+    - Path()
+        - parâmetros
+        - seu retorno
         - exemplo
-    - shutil.copy()
+    - Path(__file__)
+        - Explique.
+    - .absolute()
+        - parâmetros
+        - seu retorno
         - exemplo
-    - os.path.expanduser()
-        - explique seus argumentos, o que ela retorna e como interpretar seu retorno.
+    - .parent()
+        - parâmetros
+        - seu retorno
         - exemplo
-    -shutil.copytree()
+        - .parent.parent
+    - Comportamento das '/' entre objetos pathlib e strings.
+        - seu retorno
         - exemplo
-    - shutil.rmcopytree()
+    - .home()
+        - parâmetros
+        - seu retorno
         - exemplo
-    - shutil.move()
+    - .touch()
+        - parâmetros
+        - seu retorno
         - exemplo
+    - .unlink()
+        - parâmetros
+        - seu retorno
+        - exemplo
+    - .write_text()
+        - parâmetros
+        - seu retorno
+        - exemplo
+    - .read_text()
+        - parâmetros
+        - seu retorno
+        - exemplo
+    - .open()
+        - parâmetros
+        - seu retorno
+        - exemplo    
+    -.mkdir()
+        - parâmetros
+            - exist_ok
+        - seu retorno
+        - exemplo
+    - .rmdir diferença shutil.rmtree.
+        - parâmetros
+        - seu retorno
+        - exemplo
+    - .glob()
+        - parâmetros
+        - seu retorno
+        - exemplo
+

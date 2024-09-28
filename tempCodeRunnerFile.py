@@ -1,5 +1,2 @@
-p1 = Person('Oliver', 27, 83, 1.98)
-# answer_ = answer_person
-
-# p1.say_hello()
-# answer_()
+    # dict_file_json = dict(json.load(file))
+    # dict_file_json['id'] = 2711

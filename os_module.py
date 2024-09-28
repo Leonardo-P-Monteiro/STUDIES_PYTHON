@@ -21,4 +21,10 @@ os module. ')
     file.close()
 
 # MOVING A FILE INTO THE OUR FOLDER
-shutil.move(os.path.join(local_, 'test_os_lib_2.txt'), FOLDER_TEST_OS_LIB)
+FILE_TO_MOVE = os.path.join(local_, 'test_os_lib_2.txt')
+FILE_ON_FOLDER = os.path.join(FOLDER_TEST_OS_LIB, 'test_os_lib_2.txt')
+
+
+if not os.path.exists(FILE_ON_FOLDER):
+    shutil.move(FILE_TO_MOVE, FOLDER_TEST_OS_LIB)
+    print('Ok')
