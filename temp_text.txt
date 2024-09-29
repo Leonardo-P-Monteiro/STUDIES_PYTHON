@@ -1,82 +1,21 @@
-Módulo json.
-    - json.loads
-        - parâmetros
-        - exemplo
-    - json.dumps
-        - parâmetros
-        - exemplo
-    - json.dump
-        - parâmetros
-        - exemplo
-    - json.load
-        - parâmetros
-        - exemplo
-    - Diferenças de utilização entre eles.
-
-
-
-
-Módulo typing.
-    - TypedDict;
-        - Exemplo de utilização prática.
-        - Exemplo de utilização tipando um arquivo .json para dicionário e 
-        tipando ele na sequência. 
-
-
-Módulo pathlib
-    - Path()
+- Módulo csv
+    - .reader
         - parâmetros
         - seu retorno
         - exemplo
-    - Path(__file__)
-        - Explique.
-    - .absolute()
+    - .DcitReader
         - parâmetros
         - seu retorno
         - exemplo
-    - .parent()
+    - .writter
         - parâmetros
         - seu retorno
         - exemplo
-        - .parent.parent
-    - Comportamento das '/' entre objetos pathlib e strings.
+    - .DictWritter
+        - writeheader
+        - writerow
+        - parâmetros
+            - fieldnames
+                - para o quê serve?
         - seu retorno
         - exemplo
-    - .home()
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .touch()
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .unlink()
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .write_text()
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .read_text()
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .open()
-        - parâmetros
-        - seu retorno
-        - exemplo    
-    -.mkdir()
-        - parâmetros
-            - exist_ok
-        - seu retorno
-        - exemplo
-    - .rmdir diferença shutil.rmtree.
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .glob()
-        - parâmetros
-        - seu retorno
-        - exemplo
-
