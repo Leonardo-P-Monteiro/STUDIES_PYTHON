@@ -105,3 +105,8 @@ Para realizar esse procedimento fazemos uso do gomando 'git clone link_repositor
 
 Pull request é quando nós criamos uma branch diferente para trabalhar as modificações que desejamos implantar no projeto. 
 Quando essas modificações estão no ponto de serem incorporadas ao projeto principal, branch main, nós fazermos o upload para o github e lá no diretório online vai ser criada uma espécie de notificação mostrando que existe essa alteração feita na branch de alterações e que ela já pode ser unida ao projeto principal. Daí o gerente de projeto é que fará a autorização ou não da fusão dessas alterações ao projeto principal.
+
+
+# (Re)Definir usuário e e-mail registrados nos commits.
+git config --global user.name "Seu Nome Completo"
+git config --global user.email "seu_email@example.com"

@@ -1,21 +1,23 @@
-- Módulo csv
-    - .reader
+- Módulo zipfile
+    - ZipFile
         - parâmetros
         - seu retorno
         - exemplo
-    - .DcitReader
+    - .writter()
         - parâmetros
         - seu retorno
         - exemplo
-    - .writter
+    - .namelist()
         - parâmetros
         - seu retorno
         - exemplo
-    - .DictWritter
-        - writeheader
-        - writerow
+    - .extractall
         - parâmetros
-            - fieldnames
-                - para o quê serve?
+        - seu retorno
+        - exemplo
+    - outras funções relevantes.
+######################################################
+
+        - parâmetros
         - seu retorno
         - exemplo
