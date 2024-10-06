@@ -1,21 +1,43 @@
-- Módulo zipfile
-    - ZipFile
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .writter()
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .namelist()
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - .extractall
-        - parâmetros
-        - seu retorno
-        - exemplo
-    - outras funções relevantes.
+- Módulo Selenium
+        - chromedrive: importância.
+        - selenium.webdriver.ChromeOptions()
+                - parâmetros
+                - seu retorno
+                - exemplo
+        - selenium.webdriver.chrome.service.Service()
+                - parâmetros
+                - seu retorno
+                - exemplo
+        - selenium.webdriver.Chrome()
+                - parâmetros
+                - seu retorno
+                - exemplo
+        - selenium.webdriver.support.wait.WebDriverWait
+                - parâmetros
+                - seu retorno
+                - exemplo
+        - selenium.webdriver.support.wait.WebDriverWait.until()
+                - parâmetros
+                - seu retorno
+                - exemplo
+        - selenium.webdriver.support.expected_conditions.presence_of_element_located()
+                - parâmetros
+                - seu retorno
+                - exemplo
+        - selenium.webdriver.common.by.By
+                - parâmetros
+                - seu retorno
+                - exemplo
+        - selenium.webdriver.support.wait.WebDriverWait.send_keys()
+                - parâmetros
+                - seu retorno
+                - exemplo
+        - selenium.webdriver.common.keys
+                - parâmetros
+                - seu retorno
+                - exemplo
+
+
 ######################################################
 
         - parâmetros
