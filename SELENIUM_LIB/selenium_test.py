@@ -42,7 +42,7 @@ def make_chrome_browser(*options: str) -> selenium.webdriver.Chrome:
         executable_path=str(CHROMEDRIVER_EXEC),
     )
     browser = selenium.webdriver.Chrome(
-        service=chrome_service,
+        service=chrome_service, #type: ignore
         options=chrome_options
     )
     return browser

@@ -1,45 +1,20 @@
-- Módulo Selenium
-        - chromedrive: importância.
-        - selenium.webdriver.ChromeOptions()
+- Módulo subprocess
+        - Para que serve?
+        - O que posso fazer com ele?
+        - subprocess.run()
                 - parâmetros
+                - parâmetro: capture_output
+                - parâmetro: text
+                - parâmetro: shell
+                - parâmetro: executable
                 - seu retorno
-                - exemplo
-        - selenium.webdriver.chrome.service.Service()
-                - parâmetros
-                - seu retorno
-                - exemplo
-        - selenium.webdriver.Chrome()
-                - parâmetros
-                - seu retorno
-                - exemplo
-        - selenium.webdriver.support.wait.WebDriverWait
-                - parâmetros
-                - seu retorno
-                - exemplo
-        - selenium.webdriver.support.wait.WebDriverWait.until()
-                - parâmetros
-                - seu retorno
-                - exemplo
-        - selenium.webdriver.support.expected_conditions.presence_of_element_located()
-                - parâmetros
-                - seu retorno
-                - exemplo
-        - selenium.webdriver.common.by.By
-                - parâmetros
-                - seu retorno
-                - exemplo
-        - selenium.webdriver.support.wait.WebDriverWait.send_keys()
-                - parâmetros
-                - seu retorno
-                - exemplo
-        - selenium.webdriver.common.keys
-                - parâmetros
-                - seu retorno
-                - exemplo
+                - exemplo       
+
 
 
 ######################################################
 
-        - parâmetros
-        - seu retorno
-        - exemplo
+                - parâmetros
+                - seu retorno
+                - métodos mais úteis.
+                - exemplo
