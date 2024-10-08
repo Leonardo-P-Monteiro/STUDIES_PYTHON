@@ -1,20 +1,26 @@
-- Módulo subprocess
-        - Para que serve?
-        - O que posso fazer com ele?
-        - subprocess.run()
-                - parâmetros
-                - parâmetro: capture_output
-                - parâmetro: text
-                - parâmetro: shell
-                - parâmetro: executable
-                - seu retorno
-                - exemplo       
-
+- Módulo Threading
+        - O que são threads.
+        - Como construir uma thread.
+        - Como construir uma thread herdando a classe Thread
+        - Situações de aplicação.
+        - Exemplo simples de código.
+        - Exemplo
+        - métodos mais úteis.
+                - .is_alaive
+                - .join()
+                - .lock.acquire()
+                        - parâmetros
+                        - seu retorno
+                        - exemplo
+                - .lock.release()
+                        - parâmetros
+                        - seu retorno
+                        - exemplo
 
 
 ######################################################
 
-                - parâmetros
-                - seu retorno
-                - métodos mais úteis.
-                - exemplo
+        - parâmetros
+        - seu retorno
+        - exemplo
+        - métodos mais úteis.
