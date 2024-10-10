@@ -1,5 +1,2 @@
-p1 = Person('Oliver', 27, 83, 1.98)
-# answer_ = answer_person
-
-# p1.say_hello()
-# answer_()
+counter_1 = counter_(5)
+# threading.Thread(target=counter_1)

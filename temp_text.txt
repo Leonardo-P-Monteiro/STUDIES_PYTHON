@@ -1,20 +1,8 @@
-- módulo datetime.
-	- strptime(); (anki, ok.)
-	- diretivas de formatação. (anki, ok.)
-    - datetime.now() ; (anki, ok.) 
-        - timezone com pytz. ; (anki, ok.)
-            - types-pytz ; (anki, ok.)
-    - datetime.timestamp() ; (anki, ok.)
-    - datetime.fromtimestamp() ; (anki, ok.)
-    - delta (datetime.timedelta) em datetime. (anki, ok.)
-        - days, seconds, miscroseconds (anki, ok.)
-        - .total_seconds() e outros. (anki, ok.)
-    - .strftime(); (anki, ok.)
-         
-
-- módulo dateutil. 
-    - types-python-dateutil; (anki, ok.)
-    - relativetimedelta; argumentos. (anki, ok.)
-        - days, seconds, miscroseconds. (anki, ok.)
 
 
+######################################################
+
+        - parâmetros
+        - seu retorno
+        - exemplo
+- métodos mais úteis.
