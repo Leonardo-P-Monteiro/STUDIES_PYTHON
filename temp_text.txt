@@ -1,21 +1,3 @@
-- Módulo Threading
-        - O que são threads.
-        - Como construir uma thread.
-        - Como construir uma thread herdando a classe Thread
-        - Situações de aplicação.
-        - Exemplo simples de código.
-        - Exemplo
-        - métodos mais úteis.
-                - .is_alaive
-                - .join()
-                - .lock.acquire()
-                        - parâmetros
-                        - seu retorno
-                        - exemplo
-                - .lock.release()
-                        - parâmetros
-                        - seu retorno
-                        - exemplo
 
 
 ######################################################
@@ -23,4 +5,4 @@
         - parâmetros
         - seu retorno
         - exemplo
-        - métodos mais úteis.
+- métodos mais úteis.
