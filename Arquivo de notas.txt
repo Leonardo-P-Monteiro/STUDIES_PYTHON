@@ -1,0 +1,15 @@
+- 
+        - exemplos;
+                - Explicação passo a passo.
+        - exemplo combinado;
+                - Explicação passo a passo.
+                
+
+
+
+######################################################
+
+        - parâmetros
+        - seu retorno
+        - exemplo
+- métodos mais úteis.

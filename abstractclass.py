@@ -110,4 +110,3 @@ if __name__ == "__main__":
     p2 = Person.anonymous(1.6, 78)
     print(p2.name)
 
-    

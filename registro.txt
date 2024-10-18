@@ -1,0 +1,2 @@
+Chamando a função minha_funcao com argumentos: (2, 3), {}
+Chamando a função minha_funcao com argumentos: (2, 3), {}

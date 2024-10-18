@@ -1,8 +1,0 @@
-
-
-######################################################
-
-        - parâmetros
-        - seu retorno
-        - exemplo
-- métodos mais úteis.

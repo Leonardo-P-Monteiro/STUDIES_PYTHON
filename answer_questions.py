@@ -57,6 +57,7 @@ for item_list in questions_answers:
     if analysis:
         correct +=1
         print('Parabéns! Você acertou.')
+    
     else:
         wrong +=1
         print('Errou! Haha')
