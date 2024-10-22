@@ -1,0 +1,69 @@
+from pathlib import Path
+import time
+import selenium
+import selenium.webdriver
+import selenium.webdriver.chrome
+import selenium.webdriver.chrome.service
+import selenium.webdriver.common.by
+import selenium.webdriver.common.keys
+from selenium.webdriver.support.ui import WebDriverWait  # Import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC  # Import expected_conditions
+from selenium.webdriver.common.by import By  # Import By
+
+# Constants
+TIME_TO_WAIT = 10
+ROOT_FOLDER = Path('/home/joao-pedro/Teste/SELENIUM_LIB/chr_driv/chromedriver-linux64/chromedriver')
+CHROMEDRIVER_EXEC = ROOT_FOLDER
+
+# Function to create the Chrome browser instance
+def make_chrome_browser(*options: str) -> selenium.webdriver.Chrome:
+    chrome_options = selenium.webdriver.ChromeOptions()
+    if options is not None:
+        for option in options:
+            chrome_options.add_argument(option)  # type: ignore
+    chrome_service = selenium.webdriver.chrome.service.Service(
+        executable_path=str(CHROMEDRIVER_EXEC),
+    )
+    browser = selenium.webdriver.Chrome(
+        service=chrome_service,  # type: ignore
+        options=chrome_options
+    )
+    return browser
+
+# Create browser instance
+options = ()
+browser = make_chrome_browser(*options)
+browser.get('https://www.google.com.br/')
+
+# ESPERANDO PARA ENCONTRAR O INPUT
+
+search_input = WebDriverWait(browser, TIME_TO_WAIT).until(
+    EC.presence_of_element_located((By.NAME, 'q'))
+)
+
+search_input.send_keys('amazon')
+search_input.send_keys(selenium.webdriver.common.keys.Keys.ENTER)
+
+results = browser.find_element(selenium.webdriver.common.by.By.ID, 'search')
+link = results.find_elements(selenium.webdriver.common.by.By.TAG_NAME, 'a')
+link[0].click()
+
+into_site = browser.find_element(selenium.webdriver.common.by.By.ID, 'twotabsearchtextbox')
+into_site.send_keys('A História do Brasil para quem tem pressa: Dos bastidores do descobrimento à crise de 2015 em 200 páginas!')
+into_site.send_keys(selenium.webdriver.common.keys.Keys.ENTER)
+
+time.sleep(10)
+
+# ALTERAÇÃO AQUI - Usando um XPath mais genérico para encontrar o produto
+item_shop = WebDriverWait(browser, TIME_TO_WAIT).until(
+    EC.presence_of_element_located((By.XPATH, '///h2/a'))  # XPath mais genérico para os links dos produtos
+)
+
+# Print o WebElement encontrado
+print(item_shop)
+
+time.sleep(5)
+item_shop.click()
+
+
+time.sleep(TIME_TO_WAIT)
