@@ -75,7 +75,9 @@ into_site.send_keys(selenium.webdriver.common.keys.Keys.ENTER)
 
 time.sleep(10)
 
-item_shop = into_site.find_element(selenium.webdriver.common.by.By.XPATH, '/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/span/div/div/div[2]')
+print('passou 1')
+item_shop = into_site.find_element(selenium.webdriver.common.by.By.XPATH, '/html/body/div[1]/div[1]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/span/div/div/div[2]/div[1]/h2/a')
+print('passou 2')
 item_choice = item_shop.find_elements(selenium.webdriver.common.by.By.TAG_NAME, 'a')
 item_choice[0].click()
 

@@ -1,15 +1,37 @@
-- 
-        - exemplos;
-                - Explicação passo a passo.
-        - exemplo combinado;
-                - Explicação passo a passo.
-                
+- SQL com PyMySQL 
+        - cursor.rowcount()
+                - parâmetros
+                - seu retorno
+                - exemplo
+                        - Explicação passo a passo.
+                - métodos mais úteis.
 
+        - cursor.lastrowid()
+                - parâmetros
+                - seu retorno
+                - exemplo
+                        - Explicação passo a passo.
+                - métodos mais úteis.
+
+       - cursor.rownumber()
+                - parâmetros
+                - seu retorno
+                - exemplo
+                        - Explicação passo a passo.
+                - métodos mais úteis.
 
 
 ######################################################
 
-        - parâmetros
-        - seu retorno
-        - exemplo
-- métodos mais úteis.
+                - parâmetros
+                - seu retorno
+                - exemplo
+                        - Explicação passo a passo.
+                - métodos mais úteis.
+
+######################################################
+
+        - exemplos;
+                - Explicação passo a passo.
+        - exemplo combinado;
+                - Explicação passo a passo.
